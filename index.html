@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather World</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>World Weather App</h1>
+            <h2>Here, you just type the city that you want to check its weather and we will show you information about its real time weather.</h2>
+            <div>
+                <input type="text" name="city" id="city" placeholder="Enter a city">
+                <input type="submit" value="Get Weather" id="submit">
+                <label for="fahrenheit">&#8457;</label>
+                <input type="radio" name="format" id="fahrenheit">
+                <label for="celcius">&#8451;</label>
+                <input type="radio" name="format" id="celcius">
+            </div>
+        </form>
+        <div class="details">
+            <div class="temp-icon"><img src="" alt="Blazing Hot Sun"></div>
+            <div class="temp">5 &#8451;</div>
+            <div class="feel">Feels Like: 4 &#8457;</div>
+            <div class="humidity">Humidity: 74% </div>
+            <div class="wind-speed">Wind Speed: 24 m/s</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
